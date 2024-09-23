@@ -16,9 +16,13 @@ const Hero = () => {
       <div className="relative container mx-auto">
         {/* Main Content */}
         <div className="flex flex-col mt-8 text-center">
-          <p className="text-sm text-muted-foreground">
+          <p className="flex items-center justify-center gap-1 text-sm text-muted-foreground">
             Backed by{" "}
-            <img src="/images/ycombinator-logo.png" alt="Y Combinator" />
+            <img
+              src="/images/ycombinator-logo.png"
+              className="inline w-32 h-8"
+              alt="Y Combinator"
+            />
           </p>
           <h1 className="text-4xl md:text-6xl font-bold mt-2">
             Automated human-like voice calls for the{" "}
