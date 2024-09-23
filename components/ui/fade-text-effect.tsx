@@ -11,7 +11,6 @@ type FadeTextEffectProps = {
 
 export default function FadeTextEffect(props: FadeTextEffectProps) {
   const { words, className } = props;
-  console.log("fade", words);
   const [currentWord, setCurrentWord] = useState(words[0]);
   const [index, setIndex] = useState(0);
 
