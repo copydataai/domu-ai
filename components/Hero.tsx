@@ -1,7 +1,8 @@
-import React from "react";
 import { ButtonGroup } from "@/components/ButtonGroup";
+import FadeTextEffect from "./ui/fade-text-effect";
 
-const Hero: React.FC = () => {
+const Hero = () => {
+  const industries = ["financial industry", "insurance industry"];
   return (
     <section className="flex items-center justify-center px-16 w-full min-h-screen">
       {/* Background Image */}
@@ -17,11 +18,14 @@ const Hero: React.FC = () => {
         <div className="flex flex-col mt-8 text-center">
           <p className="text-sm text-muted-foreground">
             Backed by{" "}
-            <span className="text-orange-500 font-bold">Y Combinator</span>
+            <img src="/images/ycombinator-logo.png" alt="Y Combinator" />
           </p>
           <h1 className="text-4xl md:text-6xl font-bold mt-2">
             Automated human-like voice calls for the{" "}
-            <span className="px-2 py-1 rounded-md">financial industry</span>
+            <FadeTextEffect
+              className="text-blue-700 text-4xl md:text-6xl font-bold w-80"
+              words={industries}
+            />
           </h1>
           <p className="mt-4 text-lg">
             Domu uses generative AI to automate and trigger real-time, 24/7
