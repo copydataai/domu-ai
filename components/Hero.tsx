@@ -24,10 +24,10 @@ const Hero = () => {
               alt="Y Combinator"
             />
           </p>
-          <h1 className="text-4xl md:text-6xl font-bold mt-2">
+          <h1 className="flex flex-col items-center justify-center gap-1 text-4xl md:text-6xl font-bold mt-2">
             Automated human-like voice calls for the{" "}
             <FadeTextEffect
-              className="text-blue-700 text-4xl md:text-6xl font-bold w-80"
+              className="text-blue-700 text-4xl md:text-6xl font-bold "
               words={industries}
             />
           </h1>
