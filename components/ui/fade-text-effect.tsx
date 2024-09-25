@@ -27,7 +27,7 @@ export default function FadeTextEffect(props: FadeTextEffectProps) {
   }, [index]);
 
   return (
-    <div className="flex items-center justify-center bg-gray-100">
+    <div className="flex items-center justify-center bg-[#F5F7FA] w-fit p-1 rounded-md border-2 border-[#E2E8F0]">
       <div className={cn("text-2xl font-bold", className)}>
         <AnimatePresence mode="wait">
           <motion.span
