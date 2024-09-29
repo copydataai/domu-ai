@@ -27,13 +27,15 @@ export default function GenAIAgents() {
             <br />
             Agents that convert and engage
           </motion.h1>
-          <motion.button
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Schedule a call
-          </motion.button>
+          <a href="https://calendly.com/isabela-domu/discovery-call-domu">
+            <motion.button
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Schedule a call
+            </motion.button>
+          </a>
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -50,13 +52,15 @@ export default function GenAIAgents() {
               +100 experiments per client per month to find new ways to close
               more sales or collect more money.
             </p>
-            <motion.button
-              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Schedule a call
-            </motion.button>
+            <a href="https://calendly.com/isabela-domu/discovery-call-domu">
+              <motion.button
+                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                Schedule a call
+              </motion.button>
+            </a>
             <div className="mt-6">
               <Speech className="w-full h-32 text-blue-400" />
             </div>
