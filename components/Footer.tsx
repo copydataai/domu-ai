@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-black text-white py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-8">
-          <h2 className="text-2xl font-bold">domu</h2>
+          <h2 className="text-2xl font-bold font-raleway">domu</h2>
           <a
             href="https://www.linkedin.com/company/domu-ai/"
             className="hover:text-gray-300"
