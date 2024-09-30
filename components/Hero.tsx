@@ -1,10 +1,10 @@
-import { ButtonGroup } from "@/components/ButtonGroup";
-import FadeTextEffect from "./ui/fade-text-effect";
+import SampleGroup from "@/components/SampleGroup";
+import FadeTextEffect from "@/components/ui/fade-text-effect";
 
 const Hero = () => {
   const industries = ["financial industry", "insurance industry"];
   return (
-    <section className="flex items-center justify-center px-16 w-full min-h-screen">
+    <section className="flex items-center justify-center px-16 py-2 w-full min-h-screen">
       {/* Background Image */}
       <div className="absolute">
         <div className="absolute top-0 -left-4 bg-blue-300 w-72 h-72 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-6000"></div>
@@ -38,8 +38,9 @@ const Hero = () => {
           </p>
         </div>
 
-        {/* CTA Button Group */}
-        <ButtonGroup />
+        <div className="flex flex-col items-center justify-center">
+          <SampleGroup />
+        </div>
       </div>
     </section>
   );
