@@ -1,6 +1,6 @@
 export default function NavBar() {
   return (
-    <navbar className="flex justify-between items-center mx-auto p-4 ">
+    <nav className="flex justify-between items-center mx-auto p-4 ">
       <div className="text-4xl font-bold font-raleway">domu</div>
       <a
         href="https://calendly.com/isabela-domu/discovery-call-domu"
@@ -8,6 +8,6 @@ export default function NavBar() {
       >
         Schedule a call
       </a>
-    </navbar>
+    </nav>
   );
 }
